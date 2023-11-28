@@ -3,19 +3,22 @@
 
 def convert_grade (grade):
     
-    if grade > 80:
+    if grade > 100:
+        return ("Invalid percent!")
+    
+    elif grade >= 80:
         return ("A")
     
-    elif grade > 70:
+    elif grade >= 70:
         return ("B")
     
-    elif grade > 60:
+    elif grade >= 60:
         return ("C")
     
-    elif grade > 50:
+    elif grade >= 50:
         return ("D")
     
-    elif grade < 50:
+    elif grade >= 0:
         return ("F")
     
     else:

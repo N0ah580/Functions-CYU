@@ -15,4 +15,4 @@ def get_surface_area (radius, height):
     slant = hypot (radius, height)
     part_2 = pi * radius * slant
     answer_sa = part_1 + part_2
-    return (f"{answer_sa}ge")
+    return (f"{answer_sa}")
